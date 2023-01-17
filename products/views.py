@@ -11,3 +11,7 @@ from django.shortcuts import render
 def index(request):  # for main page on app
     # http request
     return HttpResponse('Hello World')
+
+
+def new(request):
+    return HttpResponse('New Products')
