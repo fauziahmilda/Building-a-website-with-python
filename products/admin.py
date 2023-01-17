@@ -10,4 +10,4 @@ class ProductAdmin(admin.ModelAdmin):  # provide for admin area
 
 
 # we use admin object, add site, and register to manage this product by admin
-admin.site.register(Products)
+admin.site.register(Products, ProductAdmin)
