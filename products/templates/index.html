@@ -1,0 +1,7 @@
+<h1>Products</h1>
+<ul>
+  {% for product in products %}
+  <!--template tag in django {% %}-->
+  <li>{{ product.name }} (${{product.price}})</li>
+  {% endfor %}
+</ul>

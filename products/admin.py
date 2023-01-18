@@ -5,7 +5,7 @@ from .models import Products, Offer
 # Register your models here.
 
 
-class OfferAdmin(admin.ModelAdmin):
+class OfferAdmin(admin.ModelAdmin):  # for admin display
     list_display = ('code', 'discount')
 
 
